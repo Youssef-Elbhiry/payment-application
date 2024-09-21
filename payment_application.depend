@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1725987111 source:c:\users\ghonim\onedrive\desktop\payment_application\main.c
+	<stdio.h>
+	<stdlib.h>
+	"system\Application\app.h"
+
+1726914761 source:c:\users\ghonim\onedrive\desktop\payment_application\system\application\app.c
+	"app.h"
+
+1726914761 c:\users\ghonim\onedrive\desktop\payment_application\system\application\app.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../Payment_system/Server/server.h"
+	"../Data_structures/list.h"
+	"../Data_Bases/File_Handling/file_handling.h"
+
+1725888261 c:\users\ghonim\onedrive\desktop\payment_application\system\payment_system\server\server.h
+	"../Terminal/terminal.h"
+
+1725888677 c:\users\ghonim\onedrive\desktop\payment_application\system\payment_system\terminal\terminal.h
+	<time.h>
+	<string.h>
+	"../Card/card.h"
+
+1724762357 c:\users\ghonim\onedrive\desktop\payment_application\system\payment_system\card\card.h
+	<stdlib.h>
+
+1725888336 c:\users\ghonim\onedrive\desktop\payment_application\system\data_structures\list.h
+	<stdlib.h>
+	<stdio.h>
+	"../Payment_system/Server/server.h"
+
+1726914761 c:\users\ghonim\onedrive\desktop\payment_application\system\data_bases\file_handling\file_handling.h
+	"../../Data_structures/list.h"
+
+1726928623 source:c:\users\ghonim\onedrive\desktop\payment_application\system\data_bases\file_handling\file_handling.c
+	"../../Payment_system\Server\server.h"
+	"file_handling.h"
+
+1724763155 source:c:\users\ghonim\onedrive\desktop\payment_application\system\data_structures\list.c
+	"list.h"
+
+1724762357 source:c:\users\ghonim\onedrive\desktop\payment_application\system\payment_system\card\card.c
+	<string.h>
+	"card.h"
+
+1726354324 source:c:\users\ghonim\onedrive\desktop\payment_application\system\payment_system\server\server.c
+	"server.h"
+	"../../Data_Bases/File_Handling/file_handling.h"
+
+1724944427 source:c:\users\ghonim\onedrive\desktop\payment_application\system\payment_system\terminal\terminal.c
+	"terminal.h"
+
